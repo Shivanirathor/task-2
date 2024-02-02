@@ -13,8 +13,8 @@ const AccountPage = () => {
   const savedData = () => {
     localStorage.setItem("name", username);
     localStorage.setItem("email", email);
-    setDisableName(false);
-    setDisableEmail(false);
+    setDisableName(true);
+    setDisableEmail(true);
   };
   return (
     <div className="container">
