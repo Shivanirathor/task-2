@@ -1,0 +1,74 @@
+/* Login.css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    background-image: url("https://mdbcdn.b-cdn.net/img/new/standard/city/044.webp");
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container {
+    margin-left: 500px; 
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px 5px rgba(21, 19, 19, 0.1);
+    width: 400px;
+  }
+  
+  .heading {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  .container p{
+    font-size: 14px;
+    text-align: center;
+  }
+  .input-container {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  .input-container label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  .input-container input {
+
+    width: 75%;
+    padding: 5px;
+  }
+ 
+  .button-container {
+    background-color: #3e8baf;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button-container:hover {
+    background-color: #256e90;
+  }
+  .btn{
+    display: inline-block;
+  }
+  .button-container-log {
+    background-color: #f55847;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 5px;
+  }
